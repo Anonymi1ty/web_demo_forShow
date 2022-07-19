@@ -59,6 +59,9 @@
         .btn-primary{
             margin-top: 20px;
         }
+        a{
+            color: black;
+        }
     </style>
 </body>
 </html>

@@ -10,11 +10,14 @@ import java.lang.reflect.Method;
 public abstract class BaseServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("UTF-8");
         doPost(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //设置服务器的字符集
+        req.setCharacterEncoding("UTF-8");
         //获取表的action参数
         String action=req.getParameter("action");
         /**

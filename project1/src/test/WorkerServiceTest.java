@@ -1,6 +1,7 @@
 package test;
 
 import org.junit.Test;
+import pojo.Page;
 import pojo.Worker;
 import service.WorkerService;
 import service.impl.WorkerServiceImpl;
@@ -35,6 +36,12 @@ public class WorkerServiceTest {
     @Test
     public void queryAll() {
         List<Worker> res = workerService.queryAll();
+        System.out.println(res);
+    }
+
+    @Test
+    public void page() {
+        Page<Worker> res = workerService.page(1, 3);
         System.out.println(res);
     }
 }

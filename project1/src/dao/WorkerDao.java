@@ -39,4 +39,18 @@ public interface WorkerDao {
      * @return
      */
     public List<Worker> queryWorkers();
+
+    /**
+     * 查询总记录数
+     * @return
+     */
+    public Integer queryForPageTotalCount();
+
+    /**
+     * 查询当前页记录
+     * @param begin 当前页码
+     * @param pageSize 当前页显示条数
+     * @return
+     */
+    List<Worker> queryForPageItems(int begin, Integer pageSize);
 }

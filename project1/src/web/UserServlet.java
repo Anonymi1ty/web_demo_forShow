@@ -36,6 +36,7 @@ public class UserServlet extends BaseServlet {
             req.getRequestDispatcher("/login/index.html").forward(req,resp);
         }else {
             //登录成功
+            req.getSession().setAttribute("username",username);//创建
             req.getRequestDispatcher("/login/loginSuccess.html").forward(req,resp);
         }
     }

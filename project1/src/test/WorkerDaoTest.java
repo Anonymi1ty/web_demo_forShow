@@ -40,4 +40,17 @@ public class WorkerDaoTest {
         List<Worker> result = workerDao.queryWorkers();
         System.out.println(result);
     }
+
+    @Test
+    public void queryForPageTotalCount() {
+        Integer result = workerDao.queryForPageTotalCount();
+        System.out.println(result);
+    }
+
+    @Test
+    public void queryForPageItems() {
+        List<Worker> items = workerDao.queryForPageItems(1, 3);
+        System.out.println(items);
+
+    }
 }

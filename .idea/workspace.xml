@@ -9,7 +9,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba52861-e65b-4a31-84ea-5e5f29239b0a" name="Changes" comment="" />
+    <list default="true" id="fba52861-e65b-4a31-84ea-5e5f29239b0a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/project1/src/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/pojo/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/utils/Cookie_Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/Managers/Worker_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/Managers/Worker_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/Managers/editWorker.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/Managers/editWorker.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/dao/WorkerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/dao/WorkerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/dao/impl/WorkerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/dao/impl/WorkerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/service/WorkerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/service/WorkerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/service/impl/WorkerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/service/impl/WorkerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/test/WorkerDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/test/WorkerDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/test/WorkerServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/test/WorkerServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/web/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/web/WorkerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/classes/web/WorkerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/login/loginSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/login/loginSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/project1_war_exploded/t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/dao/WorkerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/dao/WorkerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/dao/impl/WorkerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/dao/impl/WorkerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/service/WorkerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/service/WorkerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/service/impl/WorkerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/service/impl/WorkerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/test/WorkerDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/test/WorkerDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/test/WorkerServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/test/WorkerServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/web/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/web/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/web/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project1/web/WorkerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/web/WorkerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/dao/WorkerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/dao/WorkerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/dao/impl/WorkerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/dao/impl/WorkerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/service/WorkerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/service/WorkerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/service/impl/WorkerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/service/impl/WorkerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/test/WorkerDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/test/WorkerDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/test/WorkerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/test/WorkerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/web/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/web/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/web/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/web/WorkerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/web/WorkerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/Managers/Worker_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/Managers/Worker_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/Managers/editWorker.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/Managers/editWorker.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login/loginSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login/loginSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/原理.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,10 +68,13 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -37,35 +87,37 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BPnrCSVirldXwAmCjBKo6LlxGj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VS-code/C++/code/Web/web部署/project1/web/WEB-INF/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/VS-code/C++/code/Web/数据传输/JSON",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\VS-code\C++\code\Web\web部署\project1\web\WEB-INF\lib" />
@@ -115,7 +167,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WareHouseDaoTest2.addWareHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkerDaoTest.queryForPageItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project1" />
       <extension name="coverage">
         <pattern>
@@ -124,14 +176,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.WareHouseDaoTest2" />
-      <option name="METHOD_NAME" value="addWareHouse" />
+      <option name="MAIN_CLASS_NAME" value="test.WorkerDaoTest" />
+      <option name="METHOD_NAME" value="queryForPageItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WareHouseDaoTest.addWareHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkerDaoTest.queryForPageTotalCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project1" />
       <extension name="coverage">
         <pattern>
@@ -140,24 +192,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.WareHouseDaoTest" />
-      <option name="METHOD_NAME" value="addWareHouse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WareHouseDaoTest.queryWareHouseById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.WareHouseDaoTest" />
-      <option name="METHOD_NAME" value="queryWareHouseById" />
+      <option name="MAIN_CLASS_NAME" value="test.WorkerDaoTest" />
+      <option name="METHOD_NAME" value="queryForPageTotalCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +210,22 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.WorkerDaoTest" />
       <option name="METHOD_NAME" value="updateWorker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerServiceTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.WorkerServiceTest" />
+      <option name="METHOD_NAME" value="page" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,21 +400,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.WorkerDaoTest.queryForPageItems" />
+      <item itemvalue="JUnit.WorkerDaoTest.queryForPageTotalCount" />
+      <item itemvalue="JUnit.WorkerServiceTest.page" />
       <item itemvalue="JUnit.WareHServiceTest.add" />
-      <item itemvalue="JUnit.WareHouseDaoTest.addWareHouse" />
-      <item itemvalue="JUnit.WareHouseDaoTest.queryWareHouseById" />
-      <item itemvalue="JUnit.WareHouseDaoTest2.addWareHouse" />
       <item itemvalue="JUnit.WorkerDaoTest.updateWorker" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.64" />
       <item itemvalue="应用程序.JdbcUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WorkerServiceTest.page" />
+        <item itemvalue="JUnit.WorkerDaoTest.queryForPageItems" />
+        <item itemvalue="JUnit.WorkerDaoTest.queryForPageTotalCount" />
         <item itemvalue="JUnit.WareHServiceTest.add" />
         <item itemvalue="JUnit.WorkerDaoTest.updateWorker" />
-        <item itemvalue="JUnit.WareHouseDaoTest.addWareHouse" />
-        <item itemvalue="JUnit.WareHouseDaoTest2.addWareHouse" />
-        <item itemvalue="JUnit.WareHouseDaoTest.queryWareHouseById" />
       </list>
     </recent_temporary>
   </component>
@@ -385,12 +437,51 @@
       <workItem from="1657019937222" duration="9426000" />
       <workItem from="1657030773135" duration="2524000" />
       <workItem from="1657065322263" duration="38965000" />
-      <workItem from="1657155400080" duration="25983000" />
+      <workItem from="1657155400080" duration="29932000" />
+      <workItem from="1657191116582" duration="6557000" />
+      <workItem from="1657206150938" duration="294000" />
+      <workItem from="1657237425076" duration="2606000" />
+      <workItem from="1657352527441" duration="2386000" />
+      <workItem from="1657356929769" duration="6000" />
+      <workItem from="1657429528833" duration="97000" />
+      <workItem from="1657430111134" duration="735000" />
+      <workItem from="1657678645904" duration="1305000" />
+      <workItem from="1657689513886" duration="7115000" />
+      <workItem from="1657707160376" duration="3142000" />
+      <workItem from="1657761734940" duration="10917000" />
+      <workItem from="1657847663849" duration="5960000" />
+      <workItem from="1657935197256" duration="4264000" />
+      <workItem from="1657957513512" duration="32000" />
+      <workItem from="1657976538395" duration="9000" />
+      <workItem from="1657976576029" duration="36000" />
+      <workItem from="1657977544137" duration="77000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project1/src/web/WorkerServlet.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

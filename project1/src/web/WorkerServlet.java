@@ -1,5 +1,6 @@
 package web;
 
+import pojo.Page;
 import pojo.Worker;
 import service.WorkerService;
 import service.impl.WorkerServiceImpl;
@@ -19,14 +20,14 @@ public class WorkerServlet extends BaseServlet {
         String phoneNumber = req.getParameter("phoneNumber");
         workerService.add(new Worker(null,name,phoneNumber));
         //重定向(防止表单反复提交
-        resp.sendRedirect(req.getContextPath()+"/workerServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/workerServlet?action=page&pageNo=1&pageSize=5");
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Integer id = Integer.valueOf(req.getParameter("id"));
         workerService.deleteById(id);
         //重定向(防止表单反复提交
-        resp.sendRedirect(req.getContextPath()+"/workerServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/workerServlet?action=page&pageNo=1&pageSize=5");
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -35,7 +36,7 @@ public class WorkerServlet extends BaseServlet {
         String phoneNumber = req.getParameter("phoneNumber");
         workerService.Update(new Worker(id,name,phoneNumber));
         //重定向(防止表单反复提交
-        resp.sendRedirect(req.getContextPath()+"/workerServlet?action=list");
+        resp.sendRedirect(req.getContextPath()+"/workerServlet?action=page&pageNo=1&pageSize=5");
     }
 
     protected void list(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -54,5 +55,24 @@ public class WorkerServlet extends BaseServlet {
         req.setAttribute("worker",worker);
         //3.把请求转发到/Managers/editWorker.jsp页面
         req.getRequestDispatcher("/Managers/editWorker.jsp").forward(req,resp);
+    }
+
+    /**
+     * 处理分页的功能
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //1.获取请求的参数pageNo和pageSize
+        Integer pageNo= Integer.valueOf(req.getParameter("pageNo"));
+        Integer pageSize= Integer.valueOf(req.getParameter("pageSize"));
+        //2.调用workerService.page(pageNo,pageSize)
+        Page<Worker> page=workerService.page(pageNo,pageSize);
+        //3.保存Page对象到Request域中
+        req.setAttribute("page",page);
+        //4.请求转发到Worker_manager.jsp
+        req.getRequestDispatcher("/Managers/Worker_manager.jsp").forward(req,resp);
     }
 }
